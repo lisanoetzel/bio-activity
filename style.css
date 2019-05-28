@@ -1,0 +1,52 @@
+
+/*This is your general background color; removes margin & padding around body*/ 
+body {
+    background-color: #efeee7;
+    margin: 0;
+    padding: 0;
+    font-family: "Georgia", "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%
+}
+/*This changes h1 text & background colors; removes margin around header1*/
+h1 {
+    color: #efeee7;
+    background-color: #333333;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+}
+/*This changes anchor links colors*/
+a {
+    color: #d21034;
+} 
+/*This is a class named 'container'; setting-up size & margins*/
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+/*This float allows us to move around the different segments within the 'container'*/
+#main-bio,
+#contact-info,
+#bio-image {
+    float: left;
+}
+/*Sets widths of ids (% must total to 100) so that they appear all on 1 line*/
+#main-bio {
+    width: 70%;
+}
+#contact-info {
+    width: 30%;
+}
+/*Put space btwn pict. & bio text; setting dimensions of pict.*/
+#bio-image {
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+}
